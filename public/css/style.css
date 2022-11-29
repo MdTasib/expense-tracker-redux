@@ -13,6 +13,10 @@
 	min-height: 100vh;
 }
 
+.error {
+	color: red;
+}
+
 .header,
 .footer {
 	padding: 20px;

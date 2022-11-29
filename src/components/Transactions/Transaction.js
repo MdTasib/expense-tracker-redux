@@ -1,21 +1,21 @@
-import editIcon from "../../assets/images/edit.svg";
-import deleteIcon from "../../assets/images/delete.svg";
+import deleteImage from "../../assets/images/delete.svg";
+import editImage from "../../assets/images/edit.svg";
 
-const Transaction = () => {
-	return (
-		<li className='transaction income'>
-			<p>Earned this month</p>
-			<div className='right'>
-				<p>৳ 100</p>
-				<button className='link'>
-					<img alt='edit icon' className='icon' src={editIcon} />
-				</button>
-				<button className='link'>
-					<img alt='delete icon' className='icon' src={deleteIcon} />
-				</button>
-			</div>
-		</li>
-	);
-};
+export default function Transaction({ transaction }) {
+    const { name, amount, type } = transaction || {};
 
-export default Transaction;
+    return (
+        <li className={`transaction ${type}`}>
+            <p>{name}</p>
+            <div className="right">
+                <p>৳ {amount}</p>
+                <button className="link">
+                    <img alt="Edit" className="icon" src={editImage} />
+                </button>
+                <button className="link">
+                    <img alt="Delete" className="icon" src={deleteImage} />
+                </button>
+            </div>
+        </li>
+    );
+}
