@@ -1,21 +1,21 @@
 {
   "transactions": [
     {
-      "name": "test",
+      "name": "Mr Tasib",
       "type": "income",
-      "amount": 334,
+      "amount": 5000,
       "id": 1
     },
     {
-      "name": "eee",
-      "type": "expense",
-      "amount": 444,
+      "name": "mother",
+      "type": "income",
+      "amount": "500",
       "id": 2
     },
     {
-      "name": "test",
-      "type": "income",
-      "amount": 444,
+      "name": "test expense",
+      "type": "expense",
+      "amount": "300",
       "id": 3
     }
   ]
