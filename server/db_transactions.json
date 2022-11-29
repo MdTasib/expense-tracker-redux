@@ -1,12 +1,6 @@
 {
   "transactions": [
     {
-      "name": "Mr Tasib",
-      "type": "income",
-      "amount": 5000,
-      "id": 1
-    },
-    {
       "name": "mother",
       "type": "income",
       "amount": "500",
