@@ -4,7 +4,7 @@ import { fetchTransactions } from "../../features/transaction/transactionSlice";
 import Transaction from "./Transaction";
 
 export default function Transactions() {
-	const { transactions, isLoading, isError, error } = useSelector(
+	const { transactions, isLoading, isError } = useSelector(
 		state => state.transaction
 	);
 	const dispatch = useDispatch();

@@ -3,7 +3,7 @@
     {
       "name": "mother",
       "type": "income",
-      "amount": "500",
+      "amount": "700",
       "id": 2
     },
     {
@@ -11,6 +11,18 @@
       "type": "expense",
       "amount": "300",
       "id": 3
+    },
+    {
+      "name": "fram",
+      "type": "income",
+      "amount": 5000,
+      "id": 4
+    },
+    {
+      "name": "shopping",
+      "type": "expense",
+      "amount": 1200,
+      "id": 5
     }
   ]
 }
